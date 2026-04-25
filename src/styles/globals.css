@@ -108,6 +108,10 @@
   --text-body-xs: 12px;
   --text-body-xs--line-height: 1.5;
 
+  --text-body-tag: 12px;
+  --text-body-tag--line-height: 1;
+  --text-body-tag--font-weight: 400;
+
   /* Font Sizes - Action (Inter) */
   --text-action-md: 16px;
   --text-action-md--line-height: normal;

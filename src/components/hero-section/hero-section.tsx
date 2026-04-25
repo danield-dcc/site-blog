@@ -49,6 +49,7 @@ export function HeroSection() {
             height={400}
             width={200}
             className="h-full w-auto object-contain"
+            loading="eager"
           />
         </div>
       </div>
