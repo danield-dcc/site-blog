@@ -1,5 +1,6 @@
+import { Button } from "@/components/ui/button";
 import { ArrowRight, Store } from "lucide-react";
-import { Button } from "../ui/button";
+
 import Link from "next/link";
 
 export function CallToAction() {
@@ -9,12 +10,13 @@ export function CallToAction() {
         className="absolute inset-0 hidden md:block bg-cover bg-center bg-no-repeat opacity-90"
         style={{ backgroundImage: "url('/background-footer.svg')" }}
       />
+
+      <div className="absolute top-0 left-1/2 -translate-y-1/2 -translate-x-1/2 p-4 bg-cyan-300 w-fit rounded-full ">
+        <Store className="text-cyan-100" />
+      </div>
+
       <div className="container relative">
         <div className="flex flex-col items-center gap-6 text-center">
-          <div className="p-4 bg-cyan-300/60 w-fit rounded-full ">
-            <Store className="text-cyan-100" />
-          </div>
-
           <h2 className="text-gray-100 text-balance text-heading-xl font-sans">
             Crie uma loja online e inicie suas vendas ainda hoje
           </h2>

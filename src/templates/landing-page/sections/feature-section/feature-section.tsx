@@ -1,7 +1,8 @@
 import { ArrowRight } from "lucide-react";
 import Link from "next/link";
-import { Button } from "../ui/button";
+
 import Image from "next/image";
+import { Button } from "@/components/ui/button";
 
 export function FeatureSection() {
   return (

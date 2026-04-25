@@ -1,5 +1,6 @@
+import { Button } from "@/components/ui/button";
 import { ArrowRight, Clock, Store } from "lucide-react";
-import { Button } from "../ui/button";
+
 import Image from "next/image";
 import Link from "next/link";
 
@@ -16,13 +17,13 @@ export function HeroSection() {
             <div>
               <div className="flex items-center gap-2">
                 <Clock className="text-cyan-100 h-4 w-4" />
-                <span className="text-gray-200">
+                <span className="text-gray-200 text-body-md">
                   Crie o seu site me menos de 5 minutos.
                 </span>
               </div>
               <div className="flex items-center gap-2">
                 <Store className="text-cyan-100 h-4 w-4" />
-                <span className="text-gray-200">
+                <span className="text-gray-200 text-body-md">
                   Acompanhe e otimize seu negócio online.
                 </span>
               </div>
