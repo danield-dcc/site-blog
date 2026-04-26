@@ -14,8 +14,11 @@
     "jsx": "react-jsx",
     "incremental": true,
     "paths": {
-      "@/*": ["./src/*"]
-    }
+      "@/*": ["./src/*"],
+      "contentlayer/generated": ["./.contentlayer/generated"]
+    },
+    "ignoreDeprecations": "6.0",
+    "baseUrl": ".",
   },
   "include": [
     "next-env.d.ts",
@@ -23,7 +26,8 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
-    "**/*.mts"
+    "**/*.mts",
+    ".contentlayer/generated"
   ],
   "exclude": ["node_modules"]
 }

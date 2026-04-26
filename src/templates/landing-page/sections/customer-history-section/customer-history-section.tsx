@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/image"
 
 const customerStoreys = [
   {
@@ -19,7 +19,7 @@ const customerStoreys = [
       avatar: "/customer-02.png",
     },
   },
-];
+]
 
 export function CustomerStorySection() {
   return (
@@ -44,6 +44,7 @@ export function CustomerStorySection() {
                     src={customerStory.author.avatar}
                     alt={customerStory.author.name}
                     fill
+                    sizes="40px"
                     className="object-cover"
                   />
                 </div>
@@ -61,5 +62,5 @@ export function CustomerStorySection() {
         </div>
       </div>
     </section>
-  );
+    )
 }
