@@ -1,4 +1,4 @@
-import { HeartHandshake, PaintbrushVertical, Store } from "lucide-react";
+import { HeartHandshake, PaintbrushVertical, Store } from "lucide-react"
 
 export function SupportSection() {
   return (
@@ -58,5 +58,5 @@ export function SupportSection() {
         </div>
       </div>
     </section>
-  );
+  )
 }

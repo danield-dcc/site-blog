@@ -4,7 +4,7 @@ import {
   FeatureSection,
   HeroSection,
   SupportSection,
-} from "@/templates/landing-page/sections";
+} from "@/templates/landing-page/sections"
 
 export function LandingPage() {
   return (
@@ -15,5 +15,5 @@ export function LandingPage() {
       <CustomerStorySection />
       <CallToAction />
     </article>
-  );
+  )
 }

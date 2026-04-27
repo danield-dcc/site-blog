@@ -1,8 +1,8 @@
-import { Button } from "@/components/ui/button";
-import { ArrowRight, Clock, Store } from "lucide-react";
+import { Button } from "@/components/ui/button"
+import { ArrowRight, Clock, Store } from "lucide-react"
 
-import Image from "next/image";
-import Link from "next/link";
+import Image from "next/image"
+import Link from "next/link"
 
 export function HeroSection() {
   return (
@@ -55,5 +55,5 @@ export function HeroSection() {
         </div>
       </div>
     </section>
-  );
+  )
 }

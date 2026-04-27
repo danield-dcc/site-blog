@@ -1,7 +1,6 @@
 import Link from "next/link"
 import { Button } from "../ui/button"
 import ActiveLink from "../active-link/active-link"
-import Image from "next/image"
 import { Logo } from "../logo"
 
 export default function Header() {

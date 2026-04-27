@@ -10,6 +10,19 @@ const eslintConfig = defineConfig([
       semi: ["error", "never"],
     },
   },
+  {
+    files: [".contentlayer/**/*.mjs", ".contentlayer/**/*.d.ts"],
+    rules: {
+      semi: "off",
+    },
+  },
+  {
+    files: [".contentlayer/generated/**/*.d.ts"],
+    rules: {
+      "@typescript-eslint/no-empty-object-type": "off",
+      "@typescript-eslint/no-unused-vars": "off",
+    },
+  },
   // Override default ignores of eslint-config-next.
   globalIgnores([
     // Default ignores of eslint-config-next:

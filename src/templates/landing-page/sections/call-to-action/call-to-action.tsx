@@ -1,7 +1,7 @@
-import { Button } from "@/components/ui/button";
-import { ArrowRight, Store } from "lucide-react";
+import { Button } from "@/components/ui/button"
+import { ArrowRight, Store } from "lucide-react"
 
-import Link from "next/link";
+import Link from "next/link"
 
 export function CallToAction() {
   return (
@@ -30,5 +30,5 @@ export function CallToAction() {
         </div>
       </div>
     </section>
-  );
+  )
 }
