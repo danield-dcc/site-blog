@@ -34,7 +34,9 @@ export function PostCard({
         {/* Image Container */}
         <div className="relative">
           <div className="absolute top-0 right-0 px-3 py-1 bg-gray-600 backdrop-blur-sm rounded-bl-[10px]">
-            <span className="text-gray-300 text-body-xs">{date}</span>
+            <span className="text-gray-300 text-body-xs">
+              {date ? new Date(date).toLocaleDateString("pt-BR") : ""}
+            </span>
           </div>
           <Image
             src={image}
