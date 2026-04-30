@@ -59,6 +59,7 @@ export default function PostPage() {
                 <Avatar.Image
                   src={post?.author.avatar ?? ""}
                   alt={post?.title ?? ""}
+                  size="sm"
                 />
                 <Avatar.Content>
                   <Avatar.Title>{post?.author.name}</Avatar.Title>
