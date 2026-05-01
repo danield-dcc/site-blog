@@ -58,6 +58,8 @@ export default function PostPage() {
                 alt={post?.title ?? ""}
                 fill
                 className="object-cover"
+                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw"
+                loading="eager"
               />
             </figure>
             <header className="p-4 md:p-6 lg:p-12 pb-0 mt-8 md:pt-12">

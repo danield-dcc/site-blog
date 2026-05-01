@@ -1,2 +1,1 @@
-export * from './use-sare'
 export * from './use-clipboard'

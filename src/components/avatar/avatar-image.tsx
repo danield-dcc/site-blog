@@ -25,7 +25,13 @@ export function AvatarImage({
         avatarSize[size],
       )}
     >
-      <Image src={src} alt={alt} fill {...props} />
+      <Image
+        src={src}
+        alt={alt}
+        fill
+        {...props}
+        sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw"
+      />
     </div>
   );
 }
