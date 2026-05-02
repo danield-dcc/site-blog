@@ -1,7 +1,8 @@
-import Link from "next/link"
-import { Button } from "../ui/button"
-import ActiveLink from "../active-link/active-link"
-import { Logo } from "../logo"
+"use client";
+import Link from "next/link";
+import { Button } from "../ui/button";
+import ActiveLink from "../active-link/active-link";
+import { Logo } from "../logo";
 
 export default function Header() {
   return (
@@ -23,5 +24,5 @@ export default function Header() {
         </div>
       </div>
     </div>
-  )
+  );
 }
