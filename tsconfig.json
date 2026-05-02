@@ -1,7 +1,11 @@
 {
   "compilerOptions": {
     "target": "ES2017",
-    "lib": ["dom", "dom.iterable", "esnext"],
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
     "allowJs": true,
     "skipLibCheck": true,
     "strict": true,
@@ -14,11 +18,19 @@
     "jsx": "react-jsx",
     "incremental": true,
     "paths": {
-      "@/*": ["./src/*"],
-      "contentlayer/generated": ["./.contentlayer/generated"]
+      "@/*": [
+        "./src/*"
+      ],
+      "contentlayer/generated": [
+        "./.contentlayer/generated"
+      ]
     },
-    "ignoreDeprecations": "6.0",
     "baseUrl": ".",
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ]
   },
   "include": [
     "next-env.d.ts",
@@ -29,5 +41,7 @@
     "**/*.mts",
     ".contentlayer/generated"
   ],
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules"
+  ]
 }
